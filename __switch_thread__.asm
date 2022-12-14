@@ -4,6 +4,7 @@ public __switch_thread__
 section '.code' executable
 __switch_thread__:
     ; save previous context
+    push rsi
     push rdi
     push rbx
     push rbp
@@ -27,4 +28,5 @@ __switch_thread__:
     pop rbp
     pop rbx
     pop rdi
+    pop rsi
     ret
