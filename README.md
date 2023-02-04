@@ -1,4 +1,4 @@
-## Cooperative multithreading
+## Cooperative multithreading (support only 64-bit architecture, tested on Ubuntu 20.04, AMD64)
 ### How look entry point
 ```c
 void * entry_point(void * arg, int tid) {
